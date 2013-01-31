@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul{
+	list-style:none;
+	}
+ul#menu .submenu{
+	float:left;
+	position: relative;
+	}
+ul#menu ul{
+	position: absolute;
+	left: 0;
+	display: none;
+}
+
+ul#menu li:hover ul{
+	display:block;
+}
+
+
+
+div{
+	background: #ccc;
+	height: 15px;	
+	float: left;	
+}
+
+</style>
+</head>
+<body>
+<ul id="menu">
+    <li class="submenu"><a href="#">Boton 1</a>
+        <ul>
+            <li><a href="#">Submenu Boton 1</a></li>
+            <li><a href="#">Submenu Boton 2</a></li>
+            <li><a href="#">Submenu Boton 3</a></li>
+        </ul>
+    </li>   
+</ul>
+
+
+</body>
+</html>
